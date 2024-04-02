@@ -1,4 +1,4 @@
-name: Iris Decision Tree
+name: CHS Devops
 
 on:
   push:
@@ -28,4 +28,7 @@ jobs:
       
     - name: Train and evaluate Decision Tree model
       run: |
-        python model.py  # Replace with the filename of your Python script
+        python model.py 
+
+    - name: Run Ensemble Model
+      run: python ensemble_model.py
