@@ -28,4 +28,4 @@ jobs:
       
     - name: Train and evaluate Decision Tree model
       run: |
-        python train_and_evaluate.py  # Replace with the filename of your Python script
+        python model.py  # Replace with the filename of your Python script
